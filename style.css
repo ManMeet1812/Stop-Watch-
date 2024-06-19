@@ -1,0 +1,73 @@
+body{
+    border:  2px dotted #ffcbcb;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 70vh; */
+    background-color: #132743;
+    color: #ffb5b5;
+    margin: 10px;
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 50px;
+}
+i{
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-family: "Allura", cursive;
+    letter-spacing: 0.1em;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    padding-bottom: 50px;
+    border: 2px solid #ffcbcb;
+    border-radius: 10px;
+    background-color: #407088;
+}
+
+p#countDown{
+    margin: 90px;
+}
+
+p{
+    background-color: #132743;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center; /* Aligns the buttons vertically */
+}
+
+button{
+    flex: 1 1 45%; /* Each button will take nearly half the container width, allowing for two in a row */
+    max-width: 200px; /* Maximum width of each button */
+    min-width: 100px; /* Minimum width to ensure readability */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #ffb5b5;
+    color: #132743;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ffcbcb;
+}
+
+.resetValue p{
+    padding: 0;
+    background-color: #407088;
+    font-size: 2rem;
+    color:  #132743;
+}
